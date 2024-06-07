@@ -2,13 +2,13 @@ import React from 'react'
 
 const TodoItem = ({ todo }) => {
   return (
-    <div style={StyleSheet.todoItem}>
+    <div style={styles.todoItem}>
       <p>{todo.title}</p>
     </div>
   )
 }
 
-const style = {
+const styles = {
   todoItem:{
     border: '2px solid #f4f4f4',
     fontSize: '24px',
